@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>打蜜蜂游戏__鬼畜版</title>
+    <style>
+        *{  margin : 0;  padding : 0;}
+        li{  list-style:none;  }
+        #div1{height: 600px;  overflow: hidden; background:#000;
+        margin:20px auto;  position: relative;}
+        #gameBtn{
+            color:#fff;
+            font-size:20px;
+            cursor: pointer;
+            width:100px;
+            height:30px;
+            border:1px solid #fff;
+            text-align: center;
+            line-height:30px;
+            margin: 20px auto;
+        }
+        #score{
+            color:#fff;
+            font-size:20px;
+            padding:10px
+        }
+        #bee{
+            position: relative;
+        }
+        .enemy1{
+            width:40px;
+            height:30px;
+            background: url(images/mf.png) no-repeat;
+            float: left;
+
+        }
+        .enemy2{
+            width:40px;
+            height:30px;
+            background: url(images/mf2.png) no-repeat;
+            float: left;
+
+        }
+        .enemy3{
+            width:40px;
+            height:30px;
+            background: url(images/mf2.png) no-repeat;
+            float: left;
+
+        }
+        .air1{
+            width:46px;
+            height:60px;
+            background: url(images/air.png) no-repeat;
+            position: absolute;
+        }
+        .bullet{
+            width:1px;
+            overflow: hidden;
+            height:10px;
+            background: #fff;
+            position: absolute;
+        }
+        p{
+            color:#fff;
+            text-align: center;
+        }
+        p:first-of-type{
+            margin-top: 200px;;
+        }
+    </style>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="div1">
+        <div id="warning">
+            <p>适当游戏，有益身心健康</p>
+            <p>过度游戏，对身体无益处</p>
+        </div>
+        <div id="gameBtn">开始游戏</div>
+    </div>
+</body>
+</html>
